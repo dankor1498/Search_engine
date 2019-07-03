@@ -40,7 +40,7 @@ namespace Search
                 file = file.TrimStart();
 
                 string str = this.ReviewText.Text;
-                if (str == " ") throw new Exception("Некоректний шлях.");
+                if (str == " ") throw new Exception("Некоректний шлях до файлу.");
                 str = str.TrimStart();
                 DirectoryInfo dir = new DirectoryInfo(@str);
 
