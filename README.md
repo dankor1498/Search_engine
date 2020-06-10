@@ -1,7 +1,14 @@
-# Search_engine
-Поисковик файлов(указывать с расширением) в папках на языке C# с использованием WPF. 
-Реализована функция поиска как в избраной папке так и в подпапках.
-В папке SearchSetup собраное решение для установки и файл .exe.
+## File finder
 
-Скомпилировано - MVS 2017.
-dankor1498@gmail.com
+File finder in folders in C# using WPF.
+
+![Main window](/images/Screenshot_1.jpg)
+
+The search function is implemented both in the selected folder and in subfolders. 
+
+For correct operation, the file must be specified with the extension.
+
+![Work example](/images/Screenshot_2.jpg)
+
+The SearchSetup folder contains a pre-installed installation solution and a .exe file.
+
